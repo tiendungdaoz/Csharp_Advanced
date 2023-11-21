@@ -1,4 +1,6 @@
-﻿namespace Bieu_thuc_lambda
+﻿using System.Data;
+
+namespace Bieu_thuc_lambda
 {
     class Program
     {
@@ -66,7 +68,8 @@
                 Console.WriteLine(item);
             }
 
-
+            void TinhTong(int a, int b) => Console.WriteLine(a+b);
+            TinhTong(100, 5);
         }
     }
 }
