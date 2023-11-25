@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bai4_Extension_Method", "Ba
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai5_Readonly_OperatorOverloading_Indexer", "Bai5_Readonly_OperatorOverloading_Indexer\Bai5_Readonly_OperatorOverloading_Indexer.csproj", "{974D257D-10D1-474E-9231-AA39A3276070}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai6_IDisposable", "Bai6_IDisposable\Bai6_IDisposable.csproj", "{ABDC81A1-DD71-40CC-91C7-930AE2972AEE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{974D257D-10D1-474E-9231-AA39A3276070}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{974D257D-10D1-474E-9231-AA39A3276070}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{974D257D-10D1-474E-9231-AA39A3276070}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABDC81A1-DD71-40CC-91C7-930AE2972AEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABDC81A1-DD71-40CC-91C7-930AE2972AEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABDC81A1-DD71-40CC-91C7-930AE2972AEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABDC81A1-DD71-40CC-91C7-930AE2972AEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
