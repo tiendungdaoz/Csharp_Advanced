@@ -113,6 +113,7 @@ namespace _Asynchronous
             //task2.Wait();
             //taks3.Wait();
 
+            Task.WaitAll(task4, task5);
             Console.WriteLine("Press any key");
             Console.ReadKey();
         }
