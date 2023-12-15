@@ -32,14 +32,15 @@ namespace Lop_type
             PropertyInfo[] properties = user1.GetType().GetProperties();
 
             Console.WriteLine("Cac thuoc tinh cua doi tuong user1 cua lop User:");
-            foreach (var property in properties)
+            foreach (PropertyInfo property in properties)
             {
                 string name = property.Name;             //Lay ten thuoc tinh
                 var value = property.GetValue(user1);    //Lay gia tri cua thuoc tinh
                 Console.WriteLine($"Thuoc tinh {name} co gia tri la: {value}");
             }
+            Console.WriteLine();
 
-            properties[0].SetValue(user1, "Do Thi Van");
+            properties[0].SetValue(user1, "Do Thi Van"); //Thiet lap gia tri cho 1 thuoc tinh
             Console.WriteLine(user1.Name);
         }
     }

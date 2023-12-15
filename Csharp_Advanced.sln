@@ -25,6 +25,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bai10_Asynchronous", "Bai10
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai11_Lop_Type", "Bai11_Lop_Type\Bai11_Lop_Type.csproj", "{F242D2AC-EEF4-490C-B307-71F817E9EDC9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai12_Attribute", "Bai12_Attribute\Bai12_Attribute.csproj", "{CAA76364-638B-4074-A88E-26B803159DA4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{F242D2AC-EEF4-490C-B307-71F817E9EDC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F242D2AC-EEF4-490C-B307-71F817E9EDC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F242D2AC-EEF4-490C-B307-71F817E9EDC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAA76364-638B-4074-A88E-26B803159DA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAA76364-638B-4074-A88E-26B803159DA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAA76364-638B-4074-A88E-26B803159DA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAA76364-638B-4074-A88E-26B803159DA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
