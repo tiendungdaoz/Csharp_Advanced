@@ -23,9 +23,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bai9_LINQ", "Bai9_LINQ\Bai9
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bai10_Asynchronous", "Bai10_Asynchronous\Bai10_Asynchronous.csproj", "{12726935-6C63-421A-A357-5A81A5D968A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai11_Lop_Type", "Bai11_Lop_Type\Bai11_Lop_Type.csproj", "{F242D2AC-EEF4-490C-B307-71F817E9EDC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bai11_Lop_Type", "Bai11_Lop_Type\Bai11_Lop_Type.csproj", "{F242D2AC-EEF4-490C-B307-71F817E9EDC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai12_Attribute", "Bai12_Attribute\Bai12_Attribute.csproj", "{CAA76364-638B-4074-A88E-26B803159DA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bai12_Attribute", "Bai12_Attribute\Bai12_Attribute.csproj", "{CAA76364-638B-4074-A88E-26B803159DA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai13_Dependency_injection", "Bai13_Dependency_injection\Bai13_Dependency_injection.csproj", "{01FE100B-3D5B-448F-BEE8-44713C3D85EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{CAA76364-638B-4074-A88E-26B803159DA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAA76364-638B-4074-A88E-26B803159DA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CAA76364-638B-4074-A88E-26B803159DA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01FE100B-3D5B-448F-BEE8-44713C3D85EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01FE100B-3D5B-448F-BEE8-44713C3D85EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01FE100B-3D5B-448F-BEE8-44713C3D85EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01FE100B-3D5B-448F-BEE8-44713C3D85EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
