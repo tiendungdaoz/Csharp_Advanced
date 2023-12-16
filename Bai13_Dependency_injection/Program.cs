@@ -216,11 +216,10 @@ namespace Dependency_injection
             //Su dung lop ConfigurationBuilder
             ConfigurationBuilder config = new ConfigurationBuilder();
 
-            config.SetBasePath("C: \\Users\\Admin\\Desktop\\Tài li ? u h ? c l ? p trình\\C# Co b?n d?n Nâng cao\\Csharp_Advanced\\Bai13_Dependency_injection\\bin\\Debug\\net6.0\\cauhinh.json");
+            config.SetBasePath(Directory.GetCurrentDirectory());
             config.AddJsonFile("cauhinh.json");
 
             IConfigurationRoot configroot = config.Build();
-
             //var key1 = configroot.GetSection("MyServiceOptions").GetSection("data1").Value;
             //Console.WriteLine(key1);
 
