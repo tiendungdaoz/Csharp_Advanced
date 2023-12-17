@@ -29,7 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bai12_Attribute", "Bai12_At
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bai13_Dependency_injection", "Bai13_Dependency_injection\Bai13_Dependency_injection.csproj", "{01FE100B-3D5B-448F-BEE8-44713C3D85EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai14_Multithread_parallel", "Bai14_Multithread_parallel\Bai14_Multithread_parallel.csproj", "{33960AD5-9F6D-4656-8A52-A4C8C9DC54AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bai14_Multithread_parallel", "Bai14_Multithread_parallel\Bai14_Multithread_parallel.csproj", "{33960AD5-9F6D-4656-8A52-A4C8C9DC54AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai15_ClassLib", "Bai15_ClassLib\Bai15_ClassLib.csproj", "{F5096BA3-02EC-4F70-9783-EED680F12827}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{33960AD5-9F6D-4656-8A52-A4C8C9DC54AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33960AD5-9F6D-4656-8A52-A4C8C9DC54AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33960AD5-9F6D-4656-8A52-A4C8C9DC54AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5096BA3-02EC-4F70-9783-EED680F12827}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5096BA3-02EC-4F70-9783-EED680F12827}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5096BA3-02EC-4F70-9783-EED680F12827}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5096BA3-02EC-4F70-9783-EED680F12827}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
